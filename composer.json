@@ -1,19 +1,19 @@
 {
-    "name": "james.xue/laravel-admin-grid",
+    "name": "fotobank/laravel-admin-grid",
     "description": "laravel-admin Grid",
     "type": "library",
     "keywords": ["laravel-admin", "extension"],
-    "homepage": "https://github.com/xiaoxuan6/laravel-admin-grid",
+    "homepage": "https://github.com/fotobank/laravel-admin-grid",
     "license": "MIT",
     "authors": [
         {
-            "name": "xiaoxuan6",
-            "email": "1527736751@qq.com"
+            "name": "Jury Alex",
+            "email": "jurii@mail.ru"
         }
     ],
     "autoload": {
         "psr-4": {
-            "James\\Admin\\": "src/"
+            "Alex\\Admin\\": "src/"
         }
     }
 }
