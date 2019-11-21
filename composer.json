@@ -1,19 +1,28 @@
 {
     "name": "fotobank/laravel-admin-grid",
-    "description": "laravel-admin Grid",
+    "description": "Package for using laravel admin grid in Laravel-5",
     "type": "library",
-    "keywords": ["laravel-admin", "extension"],
-    "homepage": "https://github.com/fotobank/laravel-admin-grid",
+    "keywords": [
+        "laravel",
+        "laravel-admin-grid"
+    ],
     "license": "MIT",
     "authors": [
         {
-            "name": "Jury Alex",
-            "email": "jurii@mail.ru"
+            "name": "Alex Jury",
+            "email": "jurii@mail.ru",
+            "homepage": "https://github.com/fotobank/laravel-admin-grid",
+            "role": "Developer"
         }
     ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
     "autoload": {
         "psr-4": {
-            "Alex\\Admin\\": "src/"
+            "Fotobank\\laravel-admin-grid\\": "src"
         }
     }
+    
 }
