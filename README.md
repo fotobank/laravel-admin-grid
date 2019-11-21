@@ -38,7 +38,10 @@ User
     use James\Admin\Grid;
 
 # Известные проблемы
-James\Admin\Actions::{closure}()  //ошибка
+
+Ошибка:
+
+James\Admin\Actions::{closure}()  
     
 Решение：
 
