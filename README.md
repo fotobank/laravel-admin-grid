@@ -2,7 +2,7 @@
 
 ## Screenshot
 
-![screenshot](https://github.com/xiaoxuan6/laravel-admin-sortable/blob/master/20190225154750.png)
+![screenshot](https://github.com/fotobank/laravel-admin-grid/blob/master/Screenshot.png)
 
 Installation
 First, install dependencies:
