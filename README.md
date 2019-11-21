@@ -40,7 +40,7 @@ User
 # Известные проблемы
 James\Admin\Actions::{closure}()  //ошибка
     
-解决方法：
+Решение：
 
     $grid->actions(function ($actions)
 
