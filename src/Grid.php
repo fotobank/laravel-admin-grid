@@ -1,6 +1,6 @@
 <?php
 
-namespace James\Admin;
+namespace Alex\Admin;
 
 use Encore\Admin\Grid as Grids;
 
