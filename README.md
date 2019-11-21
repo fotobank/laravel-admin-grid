@@ -9,7 +9,7 @@ First, install dependencies:
 
     composer require james.xue/laravel-admin-grid
  
-### 注意事项
+### Меры предосторожности
 <div>
     <table border="0">
 	  <tr>
@@ -29,16 +29,16 @@ First, install dependencies:
     
 User 
 
-将控制器中
+В контроллере:
        
     use Encore\Admin\Grid;
        
-替换
+Заменить на:
 
     use James\Admin\Grid;
 
-# 已知问题
-James\Admin\Actions::{closure}()  报错
+# Известные проблемы
+James\Admin\Actions::{closure}()  //ошибка
     
 解决方法：
 
