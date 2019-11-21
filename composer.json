@@ -1,5 +1,5 @@
 {
-    "name": "fotobank/laravel-admin-grid",
+    "name": "alex/laravel-admin-grid",
     "description": "Package for using laravel admin grid in Laravel-5",
     "type": "library",
     "keywords": ["laravel-admin", "extension"],
