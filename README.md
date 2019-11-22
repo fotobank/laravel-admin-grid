@@ -17,11 +17,11 @@ First, install dependencies:
 	    <th>Laravel-Admin Version</th>
 	  </tr>
 	  <tr>
-	    <td>1.1.0</td>
+	    <td>1.1.1</td>
 	    <td>< 1.7</td>
 	  </tr>
 	  <tr>
-        <td>1.2.0</td>
+        <td>1.2.1</td>
         <td>>= 1.7</td>
       </tr>
 	</table>
