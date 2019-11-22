@@ -5,13 +5,6 @@
     "keywords": ["laravel-admin", "extension"],
     "homepage": "https://github.com/fotobank/laravel-admin-grid",
     "license": "MIT",
-    "minimum-stability": "dev",
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../fotobank/laravel-admin-grid"
-        }
-    ],
     "authors": [
         {
             "name": "Alex Jury",
