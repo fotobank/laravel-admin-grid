@@ -46,4 +46,3 @@ Fotobank\Admin\Actions::{closure}();
 Decision:
 
     $grid->actions(function ($actions));
-
