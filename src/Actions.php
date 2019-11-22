@@ -1,6 +1,6 @@
 <?php
 
-namespace Alex\Admin;
+namespace Fotobank\Admin;
 
 use Encore\Admin\Admin;
 use Encore\Admin\Grid\Displayers\AbstractDisplayer;

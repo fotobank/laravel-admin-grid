@@ -1,6 +1,6 @@
 <?php
 
-namespace Alex\Admin;
+namespace Fotobank\Admin;
 
 use Encore\Admin\Grid as Grids;
 
