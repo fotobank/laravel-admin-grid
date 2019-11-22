@@ -9,6 +9,7 @@ First, install dependencies:
 
     composer require fotobank/laravel-admin-grid
  
+ 
 ### Precautionary measures
 <div>
     <table border="0">

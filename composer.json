@@ -5,10 +5,11 @@
     "keywords": ["laravel-admin", "extension"],
     "homepage": "https://github.com/fotobank/laravel-admin-grid",
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Alex Jury",
-            "email": "jurii@mail.ru"
+            "email": "aleksjurii@gmail.com"
         }
     ], 
     "require": {
