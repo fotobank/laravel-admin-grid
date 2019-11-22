@@ -145,9 +145,10 @@ class Actions extends AbstractDisplayer
      */
     protected function renderView()
     {
+    	$view = trans('admin.view');
         return <<<EOT
 <a href="{$this->getResource()}/{$this->getKey()}" >
-    <span class="fa fa-calendar" style="color: #3c8dbc;"></span> <span style="color: #1e282c">{{ trans('admin.view') }}</span>
+    <span class="fa fa-calendar" style="color: #3c8dbc;"></span> <span style="color: #1e282c">{$view}</span>
 </a>&nbsp;
 EOT;
     }
@@ -159,9 +160,10 @@ EOT;
      */
     protected function renderEdit()
     {
+	    $edit = trans('admin.edit');
         return <<<EOT
 <a href="{$this->getResource()}/{$this->getKey()}/edit">
-	<span class="fa fa-pencil" style="color: #f39c12;"></span> <span style="color: #1e282c">{{ trans('admin.edit') }}</span>
+	<span class="fa fa-pencil" style="color: #f39c12;"></span> <span style="color: #1e282c">{$edit}</span>
 </a>&nbsp;
 EOT;
     }
@@ -223,10 +225,10 @@ $('.{$this->grid->getGridRowName()}-delete').unbind('click').click(function() {
 SCRIPT;
 
         Admin::script($script);
-
+	    $delete = trans('admin.delete');
         return <<<EOT
 <a href="javascript:void(0);" data-id="{$this->getKey()}" class="{$this->grid->getGridRowName()}-delete">
-    <i class="fa fa-trash" style="color: #d73925;"></i> <span style="color: #1e282c">{{ trans('admin.delete') }}</span>
+    <i class="fa fa-trash" style="color: #d73925;"></i> <span style="color: #1e282c">{$delete}</span>
 </a>
 EOT;
     }
