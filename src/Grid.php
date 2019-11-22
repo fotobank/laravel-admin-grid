@@ -6,6 +6,7 @@ use Encore\Admin\Grid as Grids;
 
 class Grid extends Grids
 {
+
     /**
      * Add `actions` column for grid.
      *
@@ -13,7 +14,7 @@ class Grid extends Grids
      */
     protected function appendActionsColumn()
     {
-        if (!$this->option('show_actions')) {
+        if (!$this->option( 'show_actions' )) {
             return;
         }
 
