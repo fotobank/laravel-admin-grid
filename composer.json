@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Fotobank\\laravel-admin-grid\\": "src"
+            "Fotobank\\Admin\\": "src"
         }
     }
     
