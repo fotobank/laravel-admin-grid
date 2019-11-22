@@ -9,26 +9,6 @@ First, install dependencies:
 
     composer require fotobank/laravel-admin-grid
  
- 
-### Precautionary measures
-<div>
-    <table border="0">
-	  <tr>
-	    <th>Version</th>
-	    <th>Laravel-Admin Version</th>
-	  </tr>
-	  <tr>
-	    <td>1.2.0</td>
-	    <td>< 1.7</td>
-	  </tr>
-	  <tr>
-        <td>1.3.0</td>
-        <td>>= 1.7</td>
-      </tr>
-	</table>
-</div>    
-    
-User :
 
 The controller:
        
