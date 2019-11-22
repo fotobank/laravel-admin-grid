@@ -147,7 +147,7 @@ class Actions extends AbstractDisplayer
     {
         return <<<EOT
 <a href="{$this->getResource()}/{$this->getKey()}" >
-    <span class="fa fa-calendar" style="color: #3c8dbc;"></span> <span style="color: #1e282c">{{ __('admin.view') }}</span>
+    <span class="fa fa-calendar" style="color: #3c8dbc;"></span> <span style="color: #1e282c">{{ trans('admin.view') }}</span>
 </a>&nbsp;
 EOT;
     }
@@ -161,7 +161,7 @@ EOT;
     {
         return <<<EOT
 <a href="{$this->getResource()}/{$this->getKey()}/edit">
-	<span class="fa fa-pencil" style="color: #f39c12;"></span> <span style="color: #1e282c">{{ __('admin.edit') }}</span>
+	<span class="fa fa-pencil" style="color: #f39c12;"></span> <span style="color: #1e282c">{{ trans('admin.edit') }}</span>
 </a>&nbsp;
 EOT;
     }
@@ -226,7 +226,7 @@ SCRIPT;
 
         return <<<EOT
 <a href="javascript:void(0);" data-id="{$this->getKey()}" class="{$this->grid->getGridRowName()}-delete">
-    <i class="fa fa-trash" style="color: #d73925;"></i> <span style="color: #1e282c">{{ __('admin.delete') }}</span>
+    <i class="fa fa-trash" style="color: #d73925;"></i> <span style="color: #1e282c">{{ trans('admin.delete') }}</span>
 </a>
 EOT;
     }
