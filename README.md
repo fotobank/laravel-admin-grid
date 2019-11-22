@@ -4,12 +4,12 @@
 
 ![screenshot](https://github.com/fotobank/laravel-admin-grid/blob/master/Screenshot.png)
 
-Installation
+Installation:
 First, install dependencies:
 
     composer require fotobank/laravel-admin-grid
  
-### Меры предосторожности
+### Precautionary measures
 <div>
     <table border="0">
 	  <tr>
@@ -27,23 +27,23 @@ First, install dependencies:
 	</table>
 </div>    
     
-User 
+User :
 
-В контроллере:
+The controller:
        
     use Encore\Admin\Grid;
        
-Заменить на:
+Replaced by:
 
-    use James\Admin\Grid;
+    use Fotobank\Admin\Grid;
 
-# Известные проблемы
+# Known issues
 
-Ошибка:
+Mistake:
 
-James\Admin\Actions::{closure}()  
+Fotobank\Admin\Actions::{closure}();
     
-Решение：
+Decision:
 
-    $grid->actions(function ($actions)
+    $grid->actions(function ($actions));
 
