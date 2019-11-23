@@ -148,7 +148,7 @@ class Actions extends AbstractDisplayer
     	$view = trans('admin.view');
         return <<<EOT
 <a href="{$this->getResource()}/{$this->getKey()}" >
-    <span class="fa fa-calendar" style="color: #3c8dbc;"></span> <span style="color: #1e282c">{$view}</span>
+    <i class="fa fa-calendar" style="color: #3c8dbc;" data-toggle="tooltip" data-placement="top" title="{$view}"></i>
 </a>&nbsp;
 EOT;
     }
@@ -163,7 +163,7 @@ EOT;
 	    $edit = trans('admin.edit');
         return <<<EOT
 <a href="{$this->getResource()}/{$this->getKey()}/edit">
-	<span class="fa fa-pencil" style="color: #f39c12;"></span> <span style="color: #1e282c">{$edit}</span>
+	<i class="fa fa-pencil" style="color: #f39c12;" data-toggle="tooltip" data-placement="top" title="{$edit}"></i>
 </a>&nbsp;
 EOT;
     }
@@ -228,7 +228,7 @@ SCRIPT;
 	    $delete = trans('admin.delete');
         return <<<EOT
 <a href="javascript:void(0);" data-id="{$this->getKey()}" class="{$this->grid->getGridRowName()}-delete">
-    <i class="fa fa-trash" style="color: #d73925;"></i> <span style="color: #1e282c">{$delete}</span>
+    <i class="fa fa-trash" style="color: #d73925;" data-toggle="tooltip" data-placement="top" title="{$delete}"></i>
 </a>
 EOT;
     }
